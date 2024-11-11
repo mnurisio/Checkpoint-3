@@ -15,7 +15,7 @@ export class Note {
 
     get listTemplate() {
         return `
- <div onclick="app.NoteController.selectActiveNote('${this.id}')" role="button" class="container-fluid ${this.color}">
+ <div onclick="app.NoteController.selectActiveNote('${this.id}')" role="button" class="noteList container-fluid ${this.color}">
      <div class="row justify-content-between pt-2 bg-white">
          <div class="col-7 text-start">
              <h6>${this.title}</h6>

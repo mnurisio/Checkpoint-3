@@ -3,6 +3,11 @@
 /* for scroll: give max height then use overflow auto */
 
 
+.noteList{
+    max-height: 10em;
+    overflow-y: auto;
+}
+
 .Red{
     /* border-color: #EA1F1F; */
     border: 5px solid #EA1F1F;
