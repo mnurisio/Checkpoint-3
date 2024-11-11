@@ -1,0 +1,21 @@
+
+
+/* for scroll: give max height then use overflow auto */
+
+
+.Red{
+    /* border-color: #EA1F1F; */
+    border: 5px solid #EA1F1F;
+}
+.Blue{
+    border: 5px solid #371FEA;
+}
+.Green{
+    border: 5px solid #1FEA5C;
+}
+.Orange{
+    border: 5px solid #EA811F;
+}
+.Purple{
+    border: 5px solid #EA1FD9;
+}
