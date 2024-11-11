@@ -1,10 +1,11 @@
 
-
-/* for scroll: give max height then use overflow auto */
-
-
 .noteList{
     max-height: 10em;
+    overflow-y: auto;
+}
+
+.cardList{
+    max-height: 49em;
     overflow-y: auto;
 }
 
