@@ -17,7 +17,6 @@ class NoteService {
             console.log('delete', deletedNote);
             const removeNote = AppState.Notes.indexOf(deletedNote)
             AppState.Notes.splice(removeNote, 1)
-            AppState.emit('activeNote')
             this.saveNote()
 
     }
